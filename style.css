@@ -1,0 +1,98 @@
+/* ==================== Global Setup ====================*/
+* {
+  font-family: "Figtree", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+--White: hsl(0, 0%, 100%);
+--Yellow: hsl(47, 88%, 63%);
+--Light-Gray: hsl(0, 0%, 42%);
+--Dark-Gray: hsl(0, 0%, 7%);
+}
+
+/* ==================== Design ====================*/
+body {
+  background-color: var(--Yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Container {
+  background-color: var(--White);
+  max-width: 20.8em;
+  max-height: 35em;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--Dark-Gray);
+  box-shadow: 10px 10px var(--Dark-Gray);
+}
+
+.Container img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.Container h3 {
+  background-color: var(--Yellow);
+  color: var(--Dark-Gray);
+  width: 85px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 20px 0 15px;
+  font-size: 14px;
+  font-weight: 1000;
+}
+
+.Container h5 {
+  color: var(--Dark-Gray);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Container h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+
+.Container h1:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Container p {
+  color: var(--Light-Gray);
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.Container .Info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Container .Info img {
+  width: 35px;
+}
+
+.Container .Info p {
+  color: var(--Dark-Gray);
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
